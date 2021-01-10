@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+img {
+  z-index:10;
+  top : 50%;
+  width : 50%;
+  
+  height : auto;
+}
+
+canvas {
+  display: block;
+  z-index:10;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+#firstframe {
+  position: fixed;
+  top: 15vh;
+  left: 22vw;
+  width: 60vw;
+  height: 80vh;
+  border: 0;
+  outline: 0;
+  display: none;
+  z-index:1;
+}
